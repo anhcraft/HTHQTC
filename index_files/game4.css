@@ -1,0 +1,218 @@
+﻿/* create by Hoc Tin Hoc Qua Tro Choi 
+CSS programming source code version 3 (CSS3) 
+Support: 
+Chrome: 36.0 
+IE: 11.0 
+Firefox: 30.0 
+Safari 6.1 
+Opera: 23.0 */
+#loadingProgressG{
+width:384px;
+height:30px;
+overflow:hidden;
+background-color:#000000;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+-ms-border-radius:15px;
+-o-border-radius:15px;
+border-radius:15px;
+  z-index: 999999;
+  position: relative;
+  margin-top: 250px;
+  margin-left: 120px;
+  border: 1px #000 solid;
+}
+
+div#loadtext {
+  font-family: cursive;
+  z-index: 9999999;
+  position: relative;
+  margin-left: 268px;
+  font-size: larger;
+}
+
+.loadingProgressG{
+background-color:#FFFFFF;
+margin-top:0;
+margin-left:-384px;
+-moz-animation-name:bounce_loadingProgressG;
+-moz-animation-duration:1.3s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-timing-function:linear;
+-webkit-animation-name:bounce_loadingProgressG;
+-webkit-animation-duration:1.3s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-timing-function:linear;
+-ms-animation-name:bounce_loadingProgressG;
+-ms-animation-duration:1.3s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-timing-function:linear;
+-o-animation-name:bounce_loadingProgressG;
+-o-animation-duration:1.3s;
+-o-animation-iteration-count:infinite;
+-o-animation-timing-function:linear;
+animation-name:bounce_loadingProgressG;
+animation-duration:1.3s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+width:384px;
+height:30px;
+}
+
+@-moz-keyframes bounce_loadingProgressG{
+0%{
+margin-left:-384px;
+}
+
+100%{
+margin-left:384px;
+}
+
+}
+
+@-webkit-keyframes bounce_loadingProgressG{
+0%{
+margin-left:-384px;
+}
+
+100%{
+margin-left:384px;
+}
+
+}
+
+@-ms-keyframes bounce_loadingProgressG{
+0%{
+margin-left:-384px;
+}
+
+100%{
+margin-left:384px;
+}
+
+}
+
+@-o-keyframes bounce_loadingProgressG{
+0%{
+margin-left:-384px;
+}
+
+100%{
+margin-left:384px;
+}
+
+}
+
+@keyframes bounce_loadingProgressG{
+0%{
+margin-left:-384px;
+}
+
+100%{
+margin-left:384px;
+}
+
+}
+
+#readyv4 input {
+  width: 25px;
+  height: 25px;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+div#mytextlogev4 {
+    font-family: cursive;
+    font-size: 32px;
+    font-weight: normal;
+    color: darkorange;
+}
+
+div#timev4 {
+    margin-top: -20px;
+    margin-left: 620px;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+div#v4body {
+  overflow-x: hidden;
+  overflow: scroll;
+  overflow-y: scroll;
+  width: 735px;
+  height: 600px;
+}
+
+.mycomstar {
+  background-color: orange;
+  z-index: 99999;
+  position: relative;
+  width: 25px;
+  height: 15px;
+  text-align: center;
+  text-align:-moz-center;
+  padding-bottom: 20px;
+  display: inline-block;
+  display: -moz-inline-block;
+  border-radius: 6px;
+}
+
+.vms1 {
+  display: inline-block;
+  display: -moz-inline-block;
+  margin-left: 50px;
+}
+
+.vms2 {
+  display: inline-block;
+   display: -moz-inline-block;
+  margin-left: 50px;
+}
+
+.vms3 {
+  display: inline-block;
+  display: -moz-inline-block;
+  margin-left: 50px;
+}
+
+.vms4 {
+  display: inline-block;
+  margin-left: 50px;
+   display: -moz-inline-block;
+}
+
+.vms5 {
+  display: inline-block;
+  margin-left: 50px;
+  display: -moz-inline-block;
+}
+
+.vms6 {
+  display: inline-block;
+  margin-left: 50px;
+  display: -moz-inline-block;
+}
+
+.vms7 {
+  display: inline-block;
+  margin-left: 50px;
+  display: -moz-inline-block;
+}
+
+.vms8 {
+  display: inline-block;
+  margin-left: 50px;
+  display: -moz-inline-block;
+}
+
+.vms9 {
+  display: inline-block;
+  display: -moz-inline-block;
+  margin-left: 50px;
+}
+
+.vms10 {
+  display: inline-block;
+  display: -moz-inline-block;
+  margin-left: 50px;
+}

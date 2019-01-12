@@ -1,0 +1,24 @@
+﻿/* create by Hoc Tin Hoc Qua Tro Choi 
+CSS programming source code version 3 (CSS3) 
+Support: 
+Chrome: 36.0 
+IE: 11.0 
+Firefox: 30.0 
+Safari 6.1 
+Opera: 23.0 */
+/* WT: 1280*984 */
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+    *{
+	height: auto;
+	width: auto;
+	}
+	
+	#myname {
+		margin-left:-5%;
+	}
+	
+	#myNewPage {
+		margin-left:-5%;
+	}
+}

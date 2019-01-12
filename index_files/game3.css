@@ -1,0 +1,790 @@
+﻿/* create by Hoc Tin Hoc Qua Tro Choi 
+CSS programming source code version 3 (CSS3) 
+Support: 
+Chrome: 36.0 
+IE: 11.0 
+Firefox: 30.0 
+Safari 6.1 
+Opera: 23.0 */
+#floatingBarsG{
+position:relative;
+width:117px;
+height:145px;
+  margin-left: 240px;
+  margin-top: 190px;
+}
+
+.blockG{
+position:absolute;
+background-color:#FFFFFF;
+width:19px;
+height:45px;
+-moz-border-radius:16px 16px 0 0;
+-moz-transform:scale(0.4);
+-moz-animation-name:fadeG;
+-moz-animation-duration:0.64s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:normal;
+-webkit-border-radius:16px 16px 0 0;
+-webkit-transform:scale(0.4);
+-webkit-animation-name:fadeG;
+-webkit-animation-duration:0.64s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:normal;
+-ms-border-radius:16px 16px 0 0;
+-ms-transform:scale(0.4);
+-ms-animation-name:fadeG;
+-ms-animation-duration:0.64s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:normal;
+-o-border-radius:16px 16px 0 0;
+-o-transform:scale(0.4);
+-o-animation-name:fadeG;
+-o-animation-duration:0.64s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:normal;
+border-radius:16px 16px 0 0;
+transform:scale(0.4);
+animation-name:fadeG;
+animation-duration:0.64s;
+animation-iteration-count:infinite;
+animation-direction:normal;
+}
+
+#rotateG_01{
+left:0;
+top:53px;
+-moz-animation-delay:0.24000000000000005s;
+-moz-transform:rotate(-90deg);
+-webkit-animation-delay:0.24000000000000005s;
+-webkit-transform:rotate(-90deg);
+-ms-animation-delay:0.24000000000000005s;
+-ms-transform:rotate(-90deg);
+-o-animation-delay:0.24000000000000005s;
+-o-transform:rotate(-90deg);
+animation-delay:0.24000000000000005s;
+transform:rotate(-90deg);
+}
+
+#rotateG_02{
+left:15px;
+top:19px;
+-moz-animation-delay:0.32s;
+-moz-transform:rotate(-45deg);
+-webkit-animation-delay:0.32s;
+-webkit-transform:rotate(-45deg);
+-ms-animation-delay:0.32s;
+-ms-transform:rotate(-45deg);
+-o-animation-delay:0.32s;
+-o-transform:rotate(-45deg);
+animation-delay:0.32s;
+transform:rotate(-45deg);
+}
+
+#rotateG_03{
+left:49px;
+top:6px;
+-moz-animation-delay:0.4s;
+-moz-transform:rotate(0deg);
+-webkit-animation-delay:0.4s;
+-webkit-transform:rotate(0deg);
+-ms-animation-delay:0.4s;
+-ms-transform:rotate(0deg);
+-o-animation-delay:0.4s;
+-o-transform:rotate(0deg);
+animation-delay:0.4s;
+transform:rotate(0deg);
+}
+
+#rotateG_04{
+right:15px;
+top:19px;
+-moz-animation-delay:0.4800000000000001s;
+-moz-transform:rotate(45deg);
+-webkit-animation-delay:0.4800000000000001s;
+-webkit-transform:rotate(45deg);
+-ms-animation-delay:0.4800000000000001s;
+-ms-transform:rotate(45deg);
+-o-animation-delay:0.4800000000000001s;
+-o-transform:rotate(45deg);
+animation-delay:0.4800000000000001s;
+transform:rotate(45deg);
+}
+
+#rotateG_05{
+right:0;
+top:53px;
+-moz-animation-delay:0.56s;
+-moz-transform:rotate(90deg);
+-webkit-animation-delay:0.56s;
+-webkit-transform:rotate(90deg);
+-ms-animation-delay:0.56s;
+-ms-transform:rotate(90deg);
+-o-animation-delay:0.56s;
+-o-transform:rotate(90deg);
+animation-delay:0.56s;
+transform:rotate(90deg);
+}
+
+#rotateG_06{
+right:15px;
+bottom:13px;
+-moz-animation-delay:0.64s;
+-moz-transform:rotate(135deg);
+-webkit-animation-delay:0.64s;
+-webkit-transform:rotate(135deg);
+-ms-animation-delay:0.64s;
+-ms-transform:rotate(135deg);
+-o-animation-delay:0.64s;
+-o-transform:rotate(135deg);
+animation-delay:0.64s;
+transform:rotate(135deg);
+}
+
+#rotateG_07{
+bottom:0;
+left:49px;
+-moz-animation-delay:0.72s;
+-moz-transform:rotate(180deg);
+-webkit-animation-delay:0.72s;
+-webkit-transform:rotate(180deg);
+-ms-animation-delay:0.72s;
+-ms-transform:rotate(180deg);
+-o-animation-delay:0.72s;
+-o-transform:rotate(180deg);
+animation-delay:0.72s;
+transform:rotate(180deg);
+}
+
+#rotateG_08{
+left:15px;
+bottom:13px;
+-moz-animation-delay:0.8s;
+-moz-transform:rotate(-135deg);
+-webkit-animation-delay:0.8s;
+-webkit-transform:rotate(-135deg);
+-ms-animation-delay:0.8s;
+-ms-transform:rotate(-135deg);
+-o-animation-delay:0.8s;
+-o-transform:rotate(-135deg);
+animation-delay:0.8s;
+transform:rotate(-135deg);
+}
+
+@-moz-keyframes fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-webkit-keyframes fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-ms-keyframes fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-o-keyframes fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@keyframes fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+#bg_game3 {
+  background: url(bg_game3.svg);
+  z-index: 9999;
+  position: relative;
+  height: 600px;
+  width: 800px;
+  margin-left: -80.5433px;
+  margin-top: 12px;
+}
+
+#startingv34 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verqg; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 28s; /* Chrome, Safari, Opera */
+  -moz-animation-name:verqg; /* Mozilla */
+  -moz-animation-duration: 28s;
+   animation-name: verqg;
+  animation-duration: 28s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verqg {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Mozilla */
+@-moz-keyframes verqg {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verqg {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+#startingv31 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verq; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 34s; /* Chrome, Safari, Opera */
+  -moz-animation-name:verq; /* Mozilla */
+  -moz-animation-duration: 34s;
+   animation-name: verq;
+  animation-duration: 34s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verq {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+@-moz-keyframes verq {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verq {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+ #startingv32 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verqt; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 32s; /* Chrome, Safari, Opera */
+   animation-name: verqt;
+  -moz-animation-name:verqt; /* Mozilla */
+  -moz-animation-duration: 32s;
+  animation-duration: 32s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verqt {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+@-moz-keyframes verqt {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verqt {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+#startingv33 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verqc; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 28s; /* Chrome, Safari, Opera */
+   animation-name: verqc;
+  animation-duration: 28s;
+    -moz-animation-name:verqc; /* Mozilla */
+  -moz-animation-duration: 28s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verqc {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Mozilla */
+@-moz-keyframes verqc {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verqc {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+#startingv35 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verqo; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 24s; /* Chrome, Safari, Opera */
+   animation-name: verqo;
+    -moz-animation-name:verqo; /* Mozilla */
+  -moz-animation-duration: 40s; 
+  animation-duration: 24s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verqo {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Mozilla */
+@-moz-keyframes verqgo {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verqo {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+#startingv36 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verqof; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 22s; /* Chrome, Safari, Opera */
+   animation-name: verqof;
+  animation-duration: 22s;
+    -moz-animation-name:verqof; /* Mozilla */
+  -moz-animation-duration: 40s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verqof {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+	
+/* Mozilla */
+@-moz-keyframes verqof {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verqof {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+#startingv37 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verqofe; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
+   animation-name: verqofe;
+  animation-duration: 20s;
+    -moz-animation-name:verqofe; /* Mozilla */
+  -moz-animation-duration: 40s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verqofe {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Mozilla */
+@-moz-keyframes verqofe {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verqofe {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+#startingv38 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verqor; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 18s; /* Chrome, Safari, Opera */
+   animation-name: verqor;
+  animation-duration: 18s;
+    -moz-animation-name:verqor; /* Mozilla */
+  -moz-animation-duration: 40s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verqor {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Mozilla */
+@-moz-keyframes verqor {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verqor {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+#startingv39 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verqower; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 16s; /* Chrome, Safari, Opera */
+   animation-name: verqower;
+  animation-duration: 16s;
+    -moz-animation-name:verqower; /* Mozilla */
+  -moz-animation-duration: 40s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verqower {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Mozilla */
+@-moz-keyframes verqower {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verqower {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+#startingv310 {
+  border: 10px solid transparent;
+  -webkit-border-image: url(borderv3.svg) 30 stretch;
+  -o-border-image: url(borderv3.svg) 30 stretch;
+  border-image: url(borderv3.svg) 30 stretch;
+  width: 100px;
+  height:100px;
+  -webkit-animation-name: verqoder; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 14s; /* Chrome, Safari, Opera */
+   animation-name: verqoder;
+  animation-duration: 14s;
+    -moz-animation-name:verqoder; /* Mozilla */
+  -moz-animation-duration: 40s;
+  margin-left: -500px;
+  margin-top: -32px;
+  background-color:#993E00;
+  position: relative;
+  z-index: 9999999;
+}  
+ 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes verqoder {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Mozilla */
+@-moz-keyframes verqoder {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes verqoder {
+    from {  margin-left: -500px;}
+    to {  margin-left: 1500px;}
+}
+p.textstarting {
+font-size: larger;
+  font-family: cursive;
+  text-align: center;
+  text-align:-moz-center;
+}  
+
+#boxmore {
+  display: block;
+  margin-top: 410px;
+  font-family: cursive;
+  font-size: xx-large;
+  margin-left: 710px;
+}
+
+input#mytextd31 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv31 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+input#mytextd32 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv32 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+input#mytextd33 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv33 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+input#mytextd34 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv34 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+input#mytextd35 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv35 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+input#mytextd36 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv36 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+input#mytextd37 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv37 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+input#mytextd39 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv39 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+input#mytextd38 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv38 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+input#mytextd310 {
+font-size: large;
+  padding: 5px;
+  font-family: cursive;
+  width: 200px;
+} 
+
+div#mytextv310 {
+  margin-left: -400px;
+  margin-top: -12px;
+}
+
+div.icheck {
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: -660px;
+  position: relative;
+  z-index: 1212121;
+  text-align: left;
+  text-align:-moz-left;
+  float: left;
+}
+
+#mytiev31 {
+margin-top:-100px;
+}
+
+#mytiev32 {
+margin-top:-100px;
+}
+
+#mytiev33 {
+margin-top:-100px;
+}
+
+#mytiev34 {
+margin-top:-100px;
+}
+
+#mytiev35 {
+margin-top:-100px;
+}
+
+#mytiev36 {
+margin-top:-100px;
+}
+
+#mytiev37 {
+margin-top:-100px;
+}
+
+#mytiev39 {
+margin-top:-100px;
+}
+
+#mytiev38 {
+margin-top:-100px;
+}
+
+#mytiev310 {
+margin-top:-100px;
+}
